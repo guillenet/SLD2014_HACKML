@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           	<TextView 
+			    android:id="@+id/user_first_name"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="Juan"/>
+		    
+			<TextView 
+			    android:id="@+id/user_last_name"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="Perez"/>
+        </LinearLayout>
+        
+        <ImageView 
+            android:id="@+id/user_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_photo"
+            android:contentDescription="User photo"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercado Pago"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Saldo"/>
+	    
+	    <TextView 
+	        android:id="@+id/user_balance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="$150"/>
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/user_account_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>
