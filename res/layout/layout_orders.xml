@@ -34,11 +34,17 @@
 	        android:text="+" />
 
 	</LinearLayout>
-	
-	<EditText
-	    android:layout_width="match_parent"
-	    android:layout_height="180dp"
-	    android:hint="Ingrese su orden de compra" />
+
+    <EditText
+        android:id="@+id/orderText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
 
 	<Button
 	    android:id="@+id/buttonSendOrders"
