@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_no_profile_photo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="3dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="11sp"
+            android:typeface="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#FF909090" />
+
+        <LinearLayout
+            android:id="@+id/menuItemMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/row_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_menu_browser" />
+
+            <TextView
+                android:id="@+id/row_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Mapa"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#FF909090" />
+
+        <LinearLayout
+            android:id="@+id/menuItemDenouncement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/row_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_menu_juicedefender" />
+
+            <TextView
+                android:id="@+id/row_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Lista de presupuestos"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#FF909090" />
+
+        <LinearLayout
+            android:id="@+id/menuItemFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/row_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_menu_settings" />
+
+            <TextView
+                android:id="@+id/row_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Pedidos"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<!--         <View -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="1dip" -->
+<!--             android:background="#FF909090" /> -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/menuItemConfiguration" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:background="@drawable/background" -->
+<!--             android:clickable="true" -->
+<!--             android:orientation="horizontal" -->
+<!--             android:paddingTop="10dp" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/row_icon" -->
+<!--                 android:layout_width="50dp" -->
+<!--                 android:layout_height="50dp" -->
+<!--                 android:padding="10dp" -->
+<!--                 android:src="@drawable/ic_menu_cleanmaster" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/row_title" -->
+<!--                 android:layout_width="0dp" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:layout_weight="1" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:padding="10dp" -->
+<!--                 android:text="Configuración" -->
+<!--                 android:textAppearance="@android:style/TextAppearance.Medium" -->
+<!--                 android:textColor="@color/white" -->
+<!--                 android:textStyle="bold" /> -->
+<!--         </LinearLayout> -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#FF909090" />
+        
+         <LinearLayout
+            android:id="@+id/menuItemExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/row_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_icon_exitapp" />
+
+            <TextView
+                android:id="@+id/row_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Salir"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

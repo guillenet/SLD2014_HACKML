@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical" >
+
+    <ImageButton
+        android:id="@+id/lnkSlider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@color/icon_menu"
+        android:src="@drawable/ic_action_overflow"
+        android:clickable="true" />
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="45dip" -->
+<!--         android:layout_centerInParent="true" -->
+<!--         android:gravity="center_horizontal" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/lnkMap" -->
+<!--             android:layout_width="65dip" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_gravity="center_vertical|center_horizontal" -->
+<!--             android:clickable="true" -->
+<!--             android:ellipsize="end" -->
+<!--             android:gravity="center_vertical|center_horizontal" -->
+<!--             android:maxLines="1" -->
+<!--             android:text="Mapa" -->
+<!--             android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--             android:textColor="#33B5E5" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/lnkList" -->
+<!--             android:layout_width="65dip" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_gravity="center_vertical|center_horizontal" -->
+<!--             android:clickable="true" -->
+<!--             android:ellipsize="end" -->
+<!--             android:gravity="center_vertical|center_horizontal" -->
+<!--             android:maxLines="1" -->
+<!--             android:text="Lista" -->
+<!--             android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--             android:textColor="@color/white" /> -->
+<!--     </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_centerInParent="true"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lnkFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:layout_marginRight="15dip"
+            android:text="Filtros"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:background="@drawable/s_buttonbar_filter_in" />
+    </LinearLayout>
+
+</RelativeLayout>

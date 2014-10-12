@@ -1,0 +1,142 @@
+﻿html{margin:0px;height:100%;}
+body{
+	margin:0px;
+	min-height:100%;
+	background:#f8af07;
+}
+
+@font-face{
+   font-family:"roboto";
+   font-style: normal;
+   font-weight: normal;
+   src: url("../font/Roboto-Light.ttf");
+}
+
+a,label,p,h1{font-family:roboto;}
+
+
+/*### HEADER ###*/
+#navHeader{
+	background:#ff8000;
+	height:50px;
+	position: fixed;
+	width: 100%;
+}
+.btnVolver{
+	vertical-align:middle;
+	display:inline-block;
+	margin-left:5px;
+	width: 65px;
+	border-right: 1px solid #ffffff;
+	margin-top: 5px;
+}
+#imgVolver{
+	height:20px;
+	vertical-align:middle;
+	display:inline-block;
+}
+#imgPerfil{
+	height:40px;
+	width:40px;
+	border-radius:20px;
+	vertical-align:middle;
+	display:inline-block;
+}
+#lblTitle{
+	vertical-align:middle;
+	display:inline-block;
+	width:70%;
+	text-align:center;
+	color:#fff;
+	font-size:24px;
+}
+.btnAlert img{
+	margin-top: 7px;
+}
+.btnAlert{
+	vertical-align: middle;
+	display: inline-block;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	height: 40px;
+	border-left: 1px solid #fff;
+	width:30px;
+}
+/*### HEADER ###*/
+/*### SUB HEADER ###*/
+.subHeader{
+	height: 25px;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	margin-top: 50px;
+}
+
+.btnTab{
+	float:left;
+	width:25%;
+	text-align:center;
+	border-right:1px solid #000;
+	box-sizing: border-box;
+	margin-top: 3px;
+}
+.btnTabLast{
+	border:none;
+}
+.btnTab label{
+}
+.btnTab img{
+	height:12px;
+}
+/*### SUB HEADER ###*/
+
+/*### CONTENT PERFIL ###*/
+.contentPage{
+	width:98%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:75px;
+}
+.fieldInfo{
+	width:100%;
+	border-top:2px solid #f8af07;
+	height:35px;
+	font-size:18px;
+}
+.fieldName{
+	float:left;
+	width:20%;
+	box-sizing: border-box;
+	color:#fff;
+	text-align:left;
+	padding-left:5px;
+	padding-top:5px;
+	background:#ff8000;
+	height:35px;
+}
+.fieldValue{
+	float:left;
+	width:75%;
+	box-sizing: border-box;
+	color: #000;
+	text-align:center;
+	padding-top:5px;
+	background:#fff;
+	height:35px;
+}
+.fieldEdit{
+	float:left;
+	width:5%;
+	box-sizing: border-box;
+	background:#fff;
+	padding-top:5px;
+	text-align:center;
+	height:35px;
+}
+.fieldEdit img{
+	border-left: 1px solid #f8af07;
+	padding-left: 15px;
+}
+/*### CONTENT PERFIL ###*/

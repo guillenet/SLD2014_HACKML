@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo Electronico"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/txtLoginEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/txtLoginPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:password="true"
+                android:singleLine="true"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnLoginEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Iniciar Sesión"
+                android:textColor="#33B5E5"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
